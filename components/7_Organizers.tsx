@@ -33,6 +33,21 @@ export default function Organizers() {
       title: 'General chair',
       image: '/api/placeholder/150/150'
     },
+    {
+      name: 'Weitao Jiang',
+      title: 'General chair',
+      image: '/api/placeholder/150/150'
+    },
+    {
+      name: 'Weitao Jiang',
+      title: 'General chair',
+      image: '/api/placeholder/150/150'
+    },
+    {
+      name: 'Weitao Jiang',
+      title: 'General chair',
+      image: '/api/placeholder/150/150'
+    },
   ]
 
   return (
