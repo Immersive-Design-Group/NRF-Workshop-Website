@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build",
-    "deploy": "npm run build && gh-pages -d .next/server/app"
+    "export": "next build"
   },
   "dependencies": {
     "next": "14.0.0",
@@ -21,7 +20,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.0",
-    "gh-pages": "^6.3.0",
     "typescript": "^5"
   }
 }
