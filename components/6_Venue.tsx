@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { assetPath } from './lib/assetPath'
 
 export default function Venue() {
   return (
@@ -9,7 +10,7 @@ export default function Venue() {
         <div className="flex justify-center items-center" style={{paddingBottom: '80px' }}>
           <div className="relative">
             <Image
-              src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
+              src={assetPath('/Assets/imgs/bg_small.png')}
               alt="Decoration"
               width={120}
               height={60}
@@ -38,7 +39,7 @@ export default function Venue() {
             {/* Small logos */}
             <div className="flex space-x-4 mt-6 mb-8">
               <Image
-                src="/NRF-Workshop-Website/Assets/logo/sd.svg"
+                src={assetPath('/Assets/logo/sd.svg')}
                 alt="School of Design Logo"
                 width={200}
                 height={50}
@@ -66,21 +67,21 @@ export default function Venue() {
         {/* Venue images */}
         <div className="flex justify-center gap-4">
           <Image
-            src="/NRF-Workshop-Website/Assets/imgs/venue1.png"
+            src={assetPath('/Assets/imgs/venue1.png')}
             alt="Venue1"
             width={622}
             height={326}
             className="object-contain"
           />
           <Image
-            src="/NRF-Workshop-Website/Assets/imgs/venue2.png"
+            src={assetPath('/Assets/imgs/venue2.png')}
             alt="Venue2"
             width={622}
             height={326}
             className="object-contain"
           />
           <Image
-            src="/NRF-Workshop-Website/Assets/imgs/venue3.png"
+            src={assetPath('/Assets/imgs/venue3.png')}
             alt="Venue3"
             width={622}
             height={326}

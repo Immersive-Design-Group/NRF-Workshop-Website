@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { assetPath } from './lib/assetPath'
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
             {/* SUSTech Logo Group */}
             <div className="flex items-center">
               <Image
-                src="/NRF-Workshop-Website/Assets/logo/sustech.svg"
+                src={assetPath('/Assets/logo/sustech.svg')}
                 alt="SUSTech Logo"
                 width={160}
                 height={32}
@@ -21,7 +22,7 @@ export default function Header() {
             {/* School of Design Logo Group */}
             <div className="flex items-center">
               <Image
-                src="/NRF-Workshop-Website/Assets/logo/sd.svg"
+                src={assetPath('/Assets/logo/sd.svg')}
                 alt="School of Design Logo"
                 width={125}
                 height={32}
@@ -31,7 +32,7 @@ export default function Header() {
             
             {/* KAIST Logo */}
             <Image
-              src="/NRF-Workshop-Website/Assets/logo/kaist.png"
+              src={assetPath('/Assets/logo/kaist.png')}
               alt="KAIST Logo"
               width={110}
               height={32}

@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { assetPath } from './lib/assetPath'
 
 export default function Hero() {
   return (
@@ -13,7 +14,7 @@ export default function Hero() {
             top: 220,
             width: 700,
             height: 380,
-            backgroundImage: "url('/NRF-Workshop-Website/Assets/imgs/bg.png')",
+            backgroundImage: `url(${assetPath('/Assets/imgs/bg.png')})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
             backgroundPosition: 'center',
