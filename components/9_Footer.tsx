@@ -25,15 +25,15 @@ export default function Footer() {
           {/* Logo 列表 */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 items-center">
             <figure className="flex flex-col items-center">
-              <Image src="/NRF-Workshop-Website/Assets/logo/immersivedesign.svg" alt="Immersive Design" width={160} height={40} />
+              <Image src="/Assets/logo/immersivedesign.svg" alt="Immersive Design" width={160} height={40} />
             </figure>
 
             <figure className="flex flex-col items-center">
-              <Image src="/NRF-Workshop-Website/Assets/logo/SSG.svg" alt="Sound Studies Group" width={160} height={40} />
+              <Image src="/Assets/logo/SSG.svg" alt="Sound Studies Group" width={160} height={40} />
             </figure>
 
             <figure className="flex flex-col items-center">
-              <Image src="/NRF-Workshop-Website/Assets/logo/sd.svg" alt="School of Design" width={160} height={40} />
+              <Image src="/Assets/logo/sd.svg" alt="School of Design" width={160} height={40} />
             </figure>
           </div>
         </div>
