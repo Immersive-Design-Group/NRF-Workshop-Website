@@ -10,7 +10,7 @@ export default function Header() {
             {/* SUSTech Logo Group */}
             <div className="flex items-center">
               <Image
-                src="/Assets/logo/sustech.svg"
+                src="/NRF-Workshop-Website/Assets/logo/sustech.svg"
                 alt="SUSTech Logo"
                 width={160}
                 height={32}
@@ -21,7 +21,7 @@ export default function Header() {
             {/* School of Design Logo Group */}
             <div className="flex items-center">
               <Image
-                src="/Assets/logo/sd.svg"
+                src="/NRF-Workshop-Website/Assets/logo/sd.svg"
                 alt="School of Design Logo"
                 width={125}
                 height={32}
@@ -31,7 +31,7 @@ export default function Header() {
             
             {/* KAIST Logo */}
             <Image
-              src="/Assets/logo/kaist.png"
+              src="/NRF-Workshop-Website/Assets/logo/kaist.png"
               alt="KAIST Logo"
               width={110}
               height={32}

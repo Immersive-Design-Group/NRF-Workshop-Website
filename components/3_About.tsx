@@ -9,7 +9,7 @@ export default function About() {
         <div className="flex justify-center items-center" style={{paddingBottom: '80px' }}>
           <div className="relative">
             <Image
-              src="/Assets/imgs/bg_small.png"
+              src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
               alt="Decoration"
               width={120}
               height={60}
@@ -23,7 +23,7 @@ export default function About() {
 
         <div className="w-full" style={{paddingBottom: '80px' }}>
           <Image
-            src="/Assets/imgs/about.png"
+            src="/NRF-Workshop-Website/Assets/imgs/about.png"
             alt="About"
             width={3000}
             height={600}
