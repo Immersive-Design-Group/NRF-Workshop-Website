@@ -8,9 +8,6 @@ const nextConfig = {
   assetPrefix: isProd ? '/NRF-Workshop-Website/' : '',
   images: {
     unoptimized: true
-  },
-  env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? '/NRF-Workshop-Website' : ''
   }
 }
 

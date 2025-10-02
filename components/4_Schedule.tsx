@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import { assetPath } from './lib/assetPath'
 
 export default function Schedule() {
   const scheduleData = [
@@ -75,7 +74,7 @@ export default function Schedule() {
               <div key={day.day} className="text-center relative flex-1 mx-12">
                 {/* 椭圆背景 - 在底部 */}
                 <Image
-                  src={assetPath('/Assets/imgs/bg_small.png')}
+                  src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
                   alt="Decoration"
                   width={200}
                   height={100}
