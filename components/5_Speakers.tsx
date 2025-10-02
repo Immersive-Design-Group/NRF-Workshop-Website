@@ -36,7 +36,7 @@ export default function Speakers() {
         <div className="flex justify-center items-center" style={{paddingBottom: '80px' }}>
           <div className="relative">
             <Image
-              src="/Assets/imgs/bg_small.png"
+              src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
               alt="Decoration"
               width={120}
               height={60}
