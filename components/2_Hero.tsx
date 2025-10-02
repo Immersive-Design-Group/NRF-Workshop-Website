@@ -13,7 +13,7 @@ export default function Hero() {
             top: 220,
             width: 700,
             height: 380,
-            backgroundImage: "url('/Assets/imgs/bg.png')",
+            backgroundImage: "url('/NRF-Workshop-Website/Assets/imgs/bg.png')",
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
             backgroundPosition: 'center',
