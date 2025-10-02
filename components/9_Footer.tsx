@@ -29,7 +29,7 @@ export default function Footer() {
             </figure>
 
             <figure className="flex flex-col items-center">
-              <Image src="/NRF-Workshop-Website/Assets/logo/ssg.svg" alt="Sound Studies Group" width={160} height={40} />
+              <Image src="/NRF-Workshop-Website/Assets/logo/SSG.svg" alt="Sound Studies Group" width={160} height={40} />
             </figure>
 
             <figure className="flex flex-col items-center">

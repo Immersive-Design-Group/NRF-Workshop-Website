@@ -50,7 +50,7 @@ export default function Speakers() {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {speakers.map((speaker, index) => {
-            const imgSrc = `/NRF-Workshop-Website/Assets/people/${encodeURIComponent(speaker.name)}.png`
+            const imgSrc = `/Assets/people/${encodeURIComponent(speaker.name)}.png`
             const avatar = (
               <div className="w-32 h-32 rounded-full mx-auto mb-6 overflow-hidden bg-gray-200">
                 <Image
@@ -74,7 +74,7 @@ export default function Speakers() {
                 <h3 className="font-bold text-gray-800 mb-2">{speaker.name}</h3>
                 <p className="text-m text-gray-600 mb-2">{speaker.title}</p>
                 <div className="flex justify-center mt-4 mb-4">
-                  <Image src="/NRF-Workshop-Website/Assets/imgs/line.svg" alt="" width={220} height={6} aria-hidden />
+                  <Image src="/Assets/imgs/line.svg" alt="" width={220} height={6} aria-hidden />
                 </div>
                 <p className="text-xs text-gray-500">{speaker.affiliation}</p>
               </div>
