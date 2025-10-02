@@ -23,7 +23,7 @@ export default function Supporters() {
         
         <div className="flex justify-center">
           <Image
-            src="/Assets/logo/nrf.png"
+            src="/NRF-Workshop-Website/Assets/logo/nrf.png"
             alt="nrf"
             width={574}
             height={169}
