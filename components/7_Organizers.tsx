@@ -6,7 +6,8 @@ export default function Organizers() {
     {
       name: 'Weitao Jiang',
       title: 'General chair',
-      image: '/NRF-Workshop-Website/Assets/people/Weitao Jiang.png'
+      image: '/NRF-Workshop-Website/Assets/people/Weitao Jiang.png',
+      url: 'https://portfolio-weitao.vercel.app'
     },
     {
       name: 'Weitao Jiang',
@@ -72,15 +73,29 @@ export default function Organizers() {
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
           {organizers.map((organizer, index) => (
             <div key={index} className="text-center">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
+              {organizer.url ? (
+                <a href={organizer.url} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${organizer.name} website`}>
+                  <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <Image
                   src={organizer.image}
                   alt={organizer.name}
                   width={100}
                   height={100}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                </a>
+              ) : (
+                <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
+                  <Image
+                    src={organizer.image}
+                    alt={organizer.name}
+                    width={100}
+                    height={100}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              )}
               <h3 className="font-bold text-gray-800 text-m mb-2">{organizer.name}</h3>
               <p className="text-xs text-gray-600">{organizer.title}</p>
             </div>
