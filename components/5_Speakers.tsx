@@ -23,7 +23,7 @@ export default function Speakers() {
     },
     {
       name: 'Masahiko INAMI',
-      title: 'Associate Professor',
+      title: 'Professor',
       affiliation: 'Research Center for Advanced Science and Technology, The University of Tokyo',
       url: 'https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html'
     },
