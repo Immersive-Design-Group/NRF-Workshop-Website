@@ -69,7 +69,7 @@ export default function Schedule() {
         
         {/* Day indicators */}
         <div className="flex justify-center mb-2">
-          <div className="flex flex-col md:flex-row justify-between w-full max-w-7xl gap-4 md:gap-0">
+          <div className="grid grid-cols-2 md:flex md:flex-row justify-between w-full max-w-7xl gap-4 md:gap-0">
             {scheduleData.map((day) => (
               <div key={day.day} className="text-center relative flex-1 mx-2 md:mx-12">
                 {/* 椭圆背景 - 在底部 */}
