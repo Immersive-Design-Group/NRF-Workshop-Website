@@ -25,8 +25,8 @@ export default function Supporters() {
           <Image
             src="/NRF-Workshop-Website/Assets/logo/nrf.png"
             alt="nrf"
-            width={574}
-            height={169}
+            width={543}
+            height={272}
           />
         </div>
       </div>
