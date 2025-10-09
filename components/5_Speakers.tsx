@@ -22,16 +22,16 @@ export default function Speakers() {
       url: 'https://anpengcheng.cn'
     },
     {
-      name: 'Masahiko INAMI',
-      title: 'Professor',
-      affiliation: 'Research Center for Advanced Science and Technology, The University of Tokyo',
-      url: 'https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html'
-    },
-    {
       name: 'Tao Luo',
       title: 'Associate Professor',
       affiliation: 'School of Design, SUSTech',
       url: 'https://designschool.sustech.edu.cn/about/team/faculty/375.html'
+    },
+    {
+      name: 'Masahiko INAMI',
+      title: 'Professor',
+      affiliation: 'Research Center for Advanced Science and Technology, The University of Tokyo',
+      url: 'https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html'
     },
   ]
 
