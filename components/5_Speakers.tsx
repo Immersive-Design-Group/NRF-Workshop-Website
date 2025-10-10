@@ -33,6 +33,12 @@ export default function Speakers() {
       affiliation: 'Research Center for Advanced Science and Technology, The University of Tokyo',
       url: 'https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html'
     },
+    {
+      name: 'Boyu Gao',
+      title: 'Associate Professor',
+      affiliation: 'College of Information Science and Technology & College of Cyber Security, Jinan University',
+      url: 'https://boyugao.wordpress.com'
+    },
   ]
 
   return (
