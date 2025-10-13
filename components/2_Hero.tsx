@@ -1,6 +1,5 @@
 'use client'
 import Image from 'next/image'
-import { getAssetPath } from '@/utils/paths'
 
 export default function Hero() {
   return (
@@ -10,11 +9,11 @@ export default function Hero() {
         <div
           style={{
             position: 'absolute',
-            right: 100,
+            right: 200,
             top: 220,
             width: 700,
             height: 380,
-            backgroundImage: `url('${getAssetPath('/Assets/imgs/bg.png')}')`,
+            backgroundImage: "url('Assets/imgs/bg.png')",
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
             backgroundPosition: 'center',
@@ -31,7 +30,7 @@ export default function Hero() {
             For Designing a Concert Space for XR
           </h1>
           <p className="text-gray-700 mt-8 font-number" style={{fontFamily: 'MontserratNum', fontWeight: 300, fontSize: '30px', letterSpacing: '0.3px'}}>
-            2025.11.27-2025.11.30
+            2025.11.27
           </p>
         </div>
       </div>

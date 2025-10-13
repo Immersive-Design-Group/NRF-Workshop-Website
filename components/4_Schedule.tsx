@@ -63,48 +63,8 @@ export default function Schedule() {
               fontSize: '26px',
               transform: 'translate(0%, -100%)'
               }}>
-              A four-day event of talks, activities, and workshops.
+              A one-day event of talks, activities, and workshops.
             </h2>
-          </div>
-        </div>
-        
-        {/* Day indicators */}
-        <div className="flex justify-center mb-2">
-          <div className="grid grid-cols-2 md:grid-cols-4 justify-between w-full max-w-7xl gap-4 md:gap-0">
-            {scheduleData.map((day) => (
-              <div key={day.day} className="text-center relative flex-1 mx-2 md:mx-12">
-                {/* 椭圆背景 - 在底部 */}
-                <Image
-                  src={getAssetPath('/Assets/imgs/bg_small.png')}
-                  alt="Decoration"
-                  width={200}
-                  height={100}
-                  className="absolute pointer-events-none z-0 hidden md:block"
-                  style={{ 
-                    objectFit: 'contain', 
-                    left: '50%', 
-                    top: '100%', 
-                    transform: 'translate(-0%, 100%)' 
-                  }}
-                  priority
-                />
-                {/* 文字内容整体 */}
-                <div className="relative z-30" style={{ transform: 'translate(0%, -40%)' }}>
-                  {/* 序号 */}
-                  <div className="mb-2">
-                    <span className="text-2xl md:text-4xl font-bold text-gray-400 font-number" style={{ fontFamily: 'MontserratNum', fontWeight: 700, fontSize: 'clamp(50px, 8vw, 100px)', opacity: 0.1 }}>{day.day}</span>
-                  </div>
-                  {/* 日期 */}
-                  <p className="font-semibold text-gray-800 mb-2 md:mb-4" style={{ fontFamily: 'MontserratNum', fontWeight: 300, fontSize: 'clamp(16px, 4vw, 26px)' }}>
-                    {day.date}
-                  </p>
-                  {/* 活动名称 */}
-                  <p className="text-sm text-gray-600 mb-2 md:mb-4" style={{ fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: 'clamp(14px, 3vw, 20px)' }}>
-                    {day.activityName}
-                  </p>
-                </div>
-              </div>
-            ))}
           </div>
         </div>
 

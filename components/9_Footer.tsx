@@ -24,13 +24,13 @@ export default function Footer() {
           </div>
 
           {/* Logo 列表 */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-8 items-center">
             <figure className="flex flex-col items-center">
               <Image src={getAssetPath('/Assets/logo/immersivedesign.svg')} alt="Immersive Design" width={160} height={40} />
             </figure>
 
             <figure className="flex flex-col items-center">
-              <Image src={getAssetPath('/Assets/logo/SSG.svg')} alt="Sound Studies Group" width={160} height={40} />
+              <Image src={getAssetPath('/Assets/logo/aideal.svg')} alt="ai DEAL" width={160} height={50} />
             </figure>
 
             <figure className="flex flex-col items-center">

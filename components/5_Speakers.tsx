@@ -5,40 +5,28 @@ import { getAssetPath } from '@/utils/paths'
 export default function Speakers() {
   const speakers = [
     {
-      name: 'Andrea Bianchi',
-      title: 'Associate Professor',
-      affiliation: 'Industrial Design & School of Computing, KAIST',
-      url: 'https://make.kaist.ac.kr/andrea'
-    },
-    {
-      name: 'Seungwoo Je',
-      title: 'Assistant Professor',
-      affiliation: 'School of Design, SUSTech',
-      url: 'http://www.immersivedesignresearch.com/seungwoo'
-    },
-    {
-      name: 'Pengcheng An',
-      title: 'Assistant Professor',
-      affiliation: 'School of Design, SUSTech',
-      url: 'https://anpengcheng.cn'
-    },
-    {
-      name: 'Tao Luo',
-      title: 'Associate Professor',
-      affiliation: 'School of Design, SUSTech',
-      url: 'https://designschool.sustech.edu.cn/about/team/faculty/375.html'
-    },
-    {
       name: 'Masahiko INAMI',
       title: 'Professor',
       affiliation: 'Research Center for Advanced Science and Technology, The University of Tokyo',
       url: 'https://www.rcast.u-tokyo.ac.jp/en/research/people/staff-inami_masahiko.html'
     },
     {
+      name: 'Andrea Bianchi',
+      title: 'Associate Professor',
+      affiliation: 'Industrial Design & School of Computing, KAIST',
+      url: 'https://make.kaist.ac.kr/andrea'
+    },
+    {
       name: 'Boyu Gao',
       title: 'Associate Professor',
       affiliation: 'College of Information Science and Technology & College of Cyber Security, Jinan University',
       url: 'https://boyugao.wordpress.com'
+    },
+    {
+      name: 'Tao Luo',
+      title: 'Assistant Professor',
+      affiliation: 'School of Design, SUSTech',
+      url: 'https://designschool.sustech.edu.cn/about/team/faculty/375.html'
     },
   ]
 

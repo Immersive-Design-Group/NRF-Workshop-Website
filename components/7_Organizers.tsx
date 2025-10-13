@@ -1,54 +1,44 @@
 'use client'
-import Image from 'next/image'
 import { getAssetPath } from '@/utils/paths'
+import Image from 'next/image'
 
 export default function Organizers() {
   const organizers = [
     {
       name: 'Weitao Jiang',
-      title: 'General chair',
+      title: 'Phd Student',
       image: getAssetPath('/Assets/people/Weitao Jiang.png'),
       url: 'https://portfolio-weitao.vercel.app'
     },
     {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
+      name: 'Ashfaque Khowaja',
+      title: 'Phd Student',
+      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
+      url: 'https://ashfaquekhowaja.com'
     },
     {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
+      name: 'Ashfaque Khowaja',
+      title: 'Phd Student',
+      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
+      url: 'https://ashfaquekhowaja.com'
     },
     {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
+      name: 'Ashfaque Khowaja',
+      title: 'Phd Student',
+      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
+      url: 'https://ashfaquekhowaja.com'
     },
     {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
+      name: 'Ashfaque Khowaja',
+      title: 'Phd Student',
+      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
+      url: 'https://ashfaquekhowaja.com'
     },
     {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
-    },
-    {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
-    },
-    {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
-    },
-    {
-      name: 'Weitao Jiang',
-      title: 'General chair',
-      image: '/api/placeholder/150/150'
+      name: 'Ashfaque Khowaja',
+      title: 'Phd Student',
+      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
+      url: 'https://ashfaquekhowaja.com'
     },
   ]
 
@@ -71,7 +61,7 @@ export default function Organizers() {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
           {organizers.map((organizer, index) => (
             <div key={index} className="text-center">
               {organizer.url ? (
@@ -97,8 +87,8 @@ export default function Organizers() {
                   />
                 </div>
               )}
-              <h3 className="font-bold text-gray-800 text-m mb-2">{organizer.name}</h3>
-              <p className="text-xs text-gray-600">{organizer.title}</p>
+              <h3 className="text-gray-800 mb-2" style={{ fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: 16 }}>{organizer.name}</h3>
+              <p className="text-gray-600" style={{ fontFamily: 'RalewayCustom', fontWeight: 400, fontSize: 16 }}>{organizer.title}</p>
             </div>
           ))}
         </div>
