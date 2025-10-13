@@ -1,12 +1,13 @@
 'use client'
 import Image from 'next/image'
+import { getAssetPath } from '@/utils/paths'
 
 export default function Organizers() {
   const organizers = [
     {
       name: 'Weitao Jiang',
       title: 'General chair',
-      image: '/NRF-Workshop-Website/Assets/people/Weitao Jiang.png',
+      image: getAssetPath('/Assets/people/Weitao Jiang.png'),
       url: 'https://portfolio-weitao.vercel.app'
     },
     {
@@ -58,7 +59,7 @@ export default function Organizers() {
         <div className="flex justify-center items-center" style={{paddingBottom: '80px' }}>
           <div className="relative">
             <Image
-              src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
+              src={getAssetPath('/Assets/imgs/bg_small.png')}
               alt="Decoration"
               width={120}
               height={60}

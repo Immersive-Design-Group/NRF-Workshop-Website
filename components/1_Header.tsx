@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { getAssetPath } from '@/utils/paths'
 
 export default function Header() {
   return (
@@ -16,7 +17,7 @@ export default function Header() {
                 className="hover:opacity-80 transition-opacity"
               >
                 <Image
-                  src="/NRF-Workshop-Website/Assets/logo/sustech.svg"
+                  src={getAssetPath('/Assets/logo/sustech.svg')}
                   alt="SUSTech Logo"
                   width={160}
                   height={32}
@@ -34,7 +35,7 @@ export default function Header() {
                 className="hover:opacity-80 transition-opacity"
               >
                 <Image
-                  src="/NRF-Workshop-Website/Assets/logo/sd.svg"
+                  src={getAssetPath('/Assets/logo/sd.svg')}
                   alt="School of Design Logo"
                   width={125}
                   height={32}
@@ -51,7 +52,7 @@ export default function Header() {
               className="hover:opacity-80 transition-opacity"
             >
               <Image
-                src="/NRF-Workshop-Website/Assets/logo/kaist.png"
+                src={getAssetPath('/Assets/logo/kaist.png')}
                 alt="KAIST Logo"
                 width={110}
                 height={32}

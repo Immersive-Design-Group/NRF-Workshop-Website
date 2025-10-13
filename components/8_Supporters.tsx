@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import { getAssetPath } from '@/utils/paths'
 
 export default function Supporters() {
   return (
@@ -9,7 +10,7 @@ export default function Supporters() {
         <div className="flex justify-center items-center" style={{paddingBottom: '80px' }}>
           <div className="relative">
             <Image
-              src="/NRF-Workshop-Website/Assets/imgs/bg_small.png"
+              src={getAssetPath('/Assets/imgs/bg_small.png')}
               alt="Decoration"
               width={120}
               height={60}
@@ -23,7 +24,7 @@ export default function Supporters() {
         
         <div className="flex justify-center">
           <Image
-            src="/NRF-Workshop-Website/Assets/logo/nrf.png"
+            src={getAssetPath('/Assets/logo/nrf.png')}
             alt="nrf"
             width={543}
             height={272}

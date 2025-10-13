@@ -2,7 +2,8 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
-  output: 'export',
+  // Only use static export for production builds
+  ...(isProd && { output: 'export' }),
   trailingSlash: true,
   basePath: isProd ? '/NRF-Workshop-Website' : '',
   assetPrefix: isProd ? '/NRF-Workshop-Website/' : '',
