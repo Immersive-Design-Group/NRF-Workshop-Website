@@ -6,37 +6,37 @@ export default function Organizers() {
   const organizers = [
     {
       name: 'Weitao Jiang',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Weitao Jiang.png'),
       url: 'https://portfolio-weitao.vercel.app'
     },
     {
       name: 'Ashfaque Khowaja',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
       url: 'https://ashfaquekhowaja.com'
     },
     {
       name: 'Ashfaque Khowaja',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
       url: 'https://ashfaquekhowaja.com'
     },
     {
       name: 'Ashfaque Khowaja',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
       url: 'https://ashfaquekhowaja.com'
     },
     {
       name: 'Ashfaque Khowaja',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
       url: 'https://ashfaquekhowaja.com'
     },
     {
       name: 'Ashfaque Khowaja',
-      title: 'Phd Student',
+      title: 'PhD Student',
       image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
       url: 'https://ashfaquekhowaja.com'
     },

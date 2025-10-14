@@ -52,7 +52,7 @@ export default function Venue() {
             {/* Google Map */}
             <div className="w-full overflow-hidden mb-8" style={{ height: '300px' }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d755.8175444685912!2d114.0045532694742!3d22.59466513427445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2skr!4v1759323663610!5m2!1szh-CN!2skr"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d460.44511806406666!2d114.00467154808308!3d22.59551885664787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2s!4v1760430074755!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
