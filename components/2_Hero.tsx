@@ -9,7 +9,7 @@ export default function Hero() {
         <div
           style={{
             position: 'absolute',
-            right: 200,
+            right: 600,
             top: 220,
             width: 700,
             height: 380,
@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
 
       <div className="container relative h-full flex items-center">
-        <div className="max-w-[1080px] relative z-50">
+        <div className="max-w-[1080px] relative z-50" style={{ mixBlendMode: 'multiply' }}>
           <p className="text-gray-500 mb-8" style={{ fontFamily: 'RalewayCustom', fontWeight: 200, fontSize: 35 }}>Seminar and Workshop</p>
           <h1 className="text-gray-900 font-bold mb-10" style={{ fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: 40 }}>
             Listening Through the Body:<br/>
