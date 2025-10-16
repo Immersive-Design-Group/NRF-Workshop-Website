@@ -205,49 +205,56 @@ a {
 /* --------------------- Custom Fonts --------------------- */
 @font-face {
   font-family: 'RalewayCustom';
-  src: url('/Assets/Fonts/Raleway-Thin.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Raleway-Thin.ttf') format('truetype'),
+       url('/Assets/Fonts/Raleway-Thin.ttf') format('truetype');
   font-style: normal;
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: 'RalewayCustom';
-  src: url('/Assets/Fonts/Raleway-Light.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Raleway-Light.ttf') format('truetype'),
+       url('/Assets/Fonts/Raleway-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: 'RalewayCustom';
-  src: url('/Assets/Fonts/Raleway-Regular.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Raleway-Regular.ttf') format('truetype'),
+       url('/Assets/Fonts/Raleway-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: 'RalewayCustom';
-  src: url('/Assets/Fonts/Raleway-Bold.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Raleway-Bold.ttf') format('truetype'),
+       url('/Assets/Fonts/Raleway-Bold.ttf') format('truetype');
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: 'MontserratNum';
-  src: url('/Assets/Fonts/Montserrat-ThinItalic.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Montserrat-ThinItalic.ttf') format('truetype'),
+       url('/Assets/Fonts/Montserrat-ThinItalic.ttf') format('truetype');
   font-style: italic;
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: 'MontserratNum';
-  src: url('/Assets/Fonts/Montserrat-Light.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Montserrat-Light.ttf') format('truetype'),
+       url('/Assets/Fonts/Montserrat-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: 'MontserratNum';
-  src: url('/Assets/Fonts/Montserrat-Bold.ttf') format('truetype');
+  src: url('/NRF-Workshop-Website/Assets/Fonts/Montserrat-Bold.ttf') format('truetype'),
+       url('/Assets/Fonts/Montserrat-Bold.ttf') format('truetype');
   font-style: normal;
   font-weight: 700;
   font-display: swap;
