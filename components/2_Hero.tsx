@@ -9,7 +9,8 @@ export default function Hero() {
         <div
           style={{
             position: 'absolute',
-            right: 600,
+            // 贴齐 .container 右内边缘（max-width:1100px, padding:0 20px）
+            right: 'max(20px, calc((100vw - 1100px)/2 - 40px))',
             top: 220,
             width: 700,
             height: 380,
@@ -17,6 +18,7 @@ export default function Hero() {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
             backgroundPosition: 'center',
+            zIndex: -1,
           }}
         />
       </div>
