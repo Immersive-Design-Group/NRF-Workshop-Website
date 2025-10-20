@@ -17,28 +17,15 @@ export default function Organizers() {
       url: 'https://ashfaquekhowaja.com'
     },
     {
-      name: 'Ashfaque Khowaja',
+      name: 'Zhicheng Wang',
       title: 'PhD Student',
-      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
-      url: 'https://ashfaquekhowaja.com'
+      image: getAssetPath('/Assets/people/Zhicheng Wang.png'),
+      url: 'https://zhicheng_wang.gitlab.io'
     },
     {
-      name: 'Ashfaque Khowaja',
+      name: 'Shenshen Lei',
       title: 'PhD Student',
-      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
-      url: 'https://ashfaquekhowaja.com'
-    },
-    {
-      name: 'Ashfaque Khowaja',
-      title: 'PhD Student',
-      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
-      url: 'https://ashfaquekhowaja.com'
-    },
-    {
-      name: 'Ashfaque Khowaja',
-      title: 'PhD Student',
-      image: getAssetPath('/Assets/people/Ashfaque Khowaja.png'),
-      url: 'https://ashfaquekhowaja.com'
+      image: getAssetPath('/Assets/people/Shenshen Lei.png'),
     },
   ]
 
