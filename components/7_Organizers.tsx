@@ -27,6 +27,11 @@ export default function Organizers() {
       title: 'PhD Student',
       image: getAssetPath('/Assets/people/Shenshen Lei.png'),
     },
+    {
+      name: 'Jiaxi Hu',
+      title: 'Master Student',
+      image: getAssetPath('/Assets/people/Jiaxi Hu.png'),
+    },
   ]
 
   return (
