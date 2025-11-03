@@ -23,10 +23,20 @@ export default function Speakers() {
       url: 'https://boyugao.wordpress.com'
     },
     {
+      name: 'HyeonBeom YI',
+      title: 'Researcher',
+      affiliation: 'Electronics and Telecommunications Research Institute (ETRI)',
+    },
+    {
       name: 'Tao Luo',
       title: 'Assistant Professor',
       affiliation: 'School of Design, SUSTech',
       url: 'https://designschool.sustech.edu.cn/about/team/faculty/375.html'
+    },
+    {
+      name: 'Sungyong Shin',
+      title: 'Senior Researcher',
+      affiliation: 'Electronics and Telecommunications Research Institute (ETRI)',
     },
   ]
 
