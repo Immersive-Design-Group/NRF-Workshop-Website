@@ -9,43 +9,26 @@ export default function Schedule() {
       date: '2025.11.27',
       activityName: 'Invited Talk',
       activities: [
-        { time: '08:00', activity: 'Flight from Seoul at 8 am' },
-        { time: '12:00', activity: 'Lunch' },
-        { time: '14:00', activity: 'Huaqiangbei Tour' },
-        { time: '16:00', activity: 'Company Visit' },
-        { time: '18:00', activity: 'Dinner' }
+        { time: '14:00-14:30', activity: 'Masahiko INAMI - Superhuman Sports' },
+        { time: '14:30-15:00', activity: 'Andrea Bianchi - “If All You Have is a Hammer”: Designing Digitally Augmented Physical Tools' },
+        { time: '15:00-15:30', activity: 'Boyu Gao - Exploring User-centered Authentication for VR/AR Devices' },
+        { time: '15:30-16:00', activity: 'HyeonBeom YI - Augmented Body Parts: VR Embodiment and Wearable Robotics' },
+        { time: '16:00-16:30', activity: 'Tao Luo - Beyond Point Studies: Transferring Interaction Technique to Spatial Computing' },
+        { time: '16:30-17:00', activity: 'Sungyong Shin - Designing a Multisensory Assistive System for Music Education of Deaf and Hard-of-Hearing Individuals' },
       ]
     },
     {
       day: 2,
       date: '2025.11.28',
-      activityName: 'Invited Talk and Workshop',
+      activityName: 'School and Company Tour',
       activities: [
-        { time: '09:00', activity: 'Company Visit in the morning' },
-        { time: '12:00', activity: 'Lunch' },
-        { time: '14:00', activity: 'Guest talks and workshop in the afternoon' },
-        { time: '18:00', activity: 'Dinner' }
+        { time: '09:00-10:00', activity: 'Design School Tour' },
+        { time: '10:00-11:00', activity: 'UBTECH Robotics' },
+        { time: '11:00-12:00', activity: 'Seeed Studio' },
+        { time: '14:00-18:00', activity: 'Huaqiangbei Tour' }
       ]
     },
-    {
-      day: 3,
-      date: '2025.11.29',
-      activityName: 'Invited Talk and Workshop',
-      activities: [
-        { time: '09:00', activity: 'For those leaving early: morning shopping, followed by a 1 pm flight to Seoul (arriving at 5 pm)' },
-        { time: '14:00', activity: 'Cultural Trip' }
-      ]
-    },
-    {
-      day: 4,
-      date: '2025.11.30',
-      activityName: 'Company Tour',
-      activities: [
-        { time: '09:00', activity: 'Morning shopping, then a 1 pm flight to Seoul (arriving at 5 pm)' }
-      ]
-    }
   ]
-
   return (
     <section className="section bg-white">
       <div className="container">
