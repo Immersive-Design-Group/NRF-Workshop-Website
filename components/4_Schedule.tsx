@@ -35,7 +35,7 @@ export default function Schedule() {
               fontSize: '26px',
               transform: 'translate(0%, -100%)'
               }}>
-              A one-day event of talks, activities, and workshops.
+              A one-day event of talks and discussions.
             </h2>
           </div>
         </div>
