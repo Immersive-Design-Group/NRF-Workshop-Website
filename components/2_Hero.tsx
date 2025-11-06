@@ -27,9 +27,7 @@ export default function Hero() {
         <div className="max-w-[1080px] relative z-50" style={{ mixBlendMode: 'multiply' }}>
           <p className="text-gray-500 mb-8" style={{ fontFamily: 'RalewayCustom', fontWeight: 200, fontSize: 35 }}>Seminar and Workshop</p>
           <h1 className="text-gray-900 font-bold mb-10" style={{ fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: 40 }}>
-            Listening Through the Body:<br/>
-            Combining Visual, Auditory, and Haptic Interaction<br/>
-            For Designing a Concert Space for XR
+          Beyond Real: Exploring the Future of Human Experience in Virtual Reality<br/>
           </h1>
           <p className="text-gray-700 mt-8 font-number" style={{fontFamily: 'MontserratNum', fontWeight: 300, fontSize: '30px', letterSpacing: '0.3px'}}>
             2025.11.27

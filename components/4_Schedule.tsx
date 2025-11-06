@@ -17,17 +17,6 @@ export default function Schedule() {
         { time: '16:30-17:00', activity: 'Sungyong Shin - Designing a Multisensory Assistive System for Music Education of Deaf and Hard-of-Hearing Individuals' },
       ]
     },
-    {
-      day: 2,
-      date: '2025.11.28',
-      activityName: 'School and Company Tour',
-      activities: [
-        { time: '09:00-10:00', activity: 'Design School Tour' },
-        { time: '10:00-11:00', activity: 'UBTECH Robotics' },
-        { time: '11:00-12:00', activity: 'Seeed Studio' },
-        { time: '14:00-18:00', activity: 'Huaqiangbei Tour' }
-      ]
-    },
   ]
   return (
     <section className="section bg-white">
