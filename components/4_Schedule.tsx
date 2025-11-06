@@ -44,13 +44,6 @@ export default function Schedule() {
         <div className="max-w-5xl mx-auto w-full">
           {scheduleData.map((day) => (
             <div key={day.day} className="mb-6">
-              {/* 标题行 */}
-              <div
-                className="w-full mt-2 mb-2 flex items-center justify-center"
-                style={{ height: '40px', fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: '20px', backgroundColor: '#d1d5db' }}
-              >
-                Day {day.day}
-              </div>
               {/* 表格行 */}
               <div className="w-full">
                 {day.activities.map((activity, index) => (
