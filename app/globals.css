@@ -138,6 +138,10 @@ a {
   gap: 2rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .flex {
   display: flex;
 }

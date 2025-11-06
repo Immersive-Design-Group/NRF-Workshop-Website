@@ -59,7 +59,7 @@ export default function Speakers() {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-12">
           {speakers.map((speaker, index) => {
             const imgSrc = getAssetPath(`/Assets/people/${encodeURIComponent(speaker.name)}.png`)
             const avatar = (
