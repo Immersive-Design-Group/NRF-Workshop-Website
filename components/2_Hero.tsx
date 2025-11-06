@@ -25,7 +25,7 @@ export default function Hero() {
 
       <div className="container relative h-full flex items-center">
         <div className="max-w-[1080px] relative z-50" style={{ mixBlendMode: 'multiply' }}>
-          <p className="text-gray-500 mb-8" style={{ fontFamily: 'RalewayCustom', fontWeight: 200, fontSize: 35 }}>Seminar and Workshop</p>
+          <p className="text-gray-500 mb-8" style={{ fontFamily: 'RalewayCustom', fontWeight: 200, fontSize: 35 }}>NRF Workshop - Talk series</p>
           <h1 className="text-gray-900 font-bold mb-10" style={{ fontFamily: 'RalewayCustom', fontWeight: 700, fontSize: 40 }}>
           Beyond Real: Exploring the Future of Human Experience in Virtual Reality<br/>
           </h1>
