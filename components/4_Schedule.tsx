@@ -9,12 +9,12 @@ export default function Schedule() {
       date: '2025.11.27',
       activityName: 'Invited Talk',
       activities: [
-        { time: '14:00-14:30', activity: 'Masahiko INAMI - Superhuman Sports' },
-        { time: '14:30-15:00', activity: 'Andrea Bianchi - “If All You Have is a Hammer”: Designing Digitally Augmented Physical Tools' },
-        { time: '15:00-15:30', activity: 'Boyu Gao - Exploring User-centered Authentication for VR/AR Devices' },
-        { time: '15:30-16:00', activity: 'HyeonBeom YI - Augmented Body Parts: VR Embodiment and Wearable Robotics' },
-        { time: '16:00-16:30', activity: 'Tao Luo - Beyond Point Studies: Transferring Interaction Technique to Spatial Computing' },
-        { time: '16:30-17:00', activity: 'Sungyong Shin - Designing a Multisensory Assistive System for Music Education of Deaf and Hard-of-Hearing Individuals' },
+        { time: '14:00-14:30', activity: 'Masahiko INAMI - Superhuman Sports'},
+        { time: '14:30-15:00', activity: 'Andrea Bianchi - “If All You Have is a Hammer”: Designing Digitally Augmented Physical Tools'},
+        { time: '15:00-15:30', activity: 'Boyu Gao - Exploring User-centered Authentication for VR/AR Devices'},
+        { time: '15:30-16:00', activity: 'HyeonBeom YI - Augmented Body Parts: VR Embodiment and Wearable Robotics'},
+        { time: '16:00-16:30', activity: 'Tao Luo - Beyond Point Studies: Transferring Interaction Technique to Spatial Computing'},
+        { time: '16:30-17:00', activity: 'Sungyong Shin - Designing a Multisensory Assistive System for Music Education of Deaf and Hard-of-Hearing Individuals'},
       ]
     },
   ]
