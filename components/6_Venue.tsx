@@ -65,7 +65,7 @@ export default function Venue() {
         </div>
         
         {/* Venue images */}
-        <div className="flex justify-center gap-4">
+        {/* <div className="flex justify-center gap-4">
           <Image
             src={getAssetPath('/Assets/imgs/venue1.png')}
             alt="Venue1"
@@ -87,7 +87,7 @@ export default function Venue() {
             height={326}
             className="object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </section>
   )
