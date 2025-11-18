@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'NRF Workshop 2025 - Listening Through the Body',
-  description: 'Combining Visual, Auditory, and Haptic Interaction For Designing a Concert Space for XR',
+  title: 'NRF Workshop 2025 - Beyond Real',
+  description: 'Exploring the Future of Human Experience in Virtual Reality',
 }
 
 export default function RootLayout({
