@@ -34,7 +34,7 @@ export default function About() {
         </div>
 
         {/* 文字区域 */}
-        <div className="max-w-4xl mx-auto">
+        {/* <div className="max-w-4xl mx-auto">
           <p className="text-gray-900" style={{ fontFamily: 'RalewayCustom', fontWeight: 400, fontSize: 18}}>
           Music serves as a collective experience, significantly influencing culture, the economy, and society. What does the future hold for music consumption and concerts? Historically, we have transitioned from physical formats like CDs and tapes to streaming, and we may now be on the brink of virtual reality (VR). <br />
           <br />
@@ -42,7 +42,7 @@ export default function About() {
           <br />
           Despite their potential, VR concerts encounter various obstacles. They frequently lack engagement and can lead to solitary experiences. Instead, we propose the concept of mixed reality concerts, where both participants and spectators can be present either remotely or physically, merging the tangible and virtual worlds. To bring this vision to life, we are concentrating on developing a digital mixed reality experience for both musicians and audiences through mixed reality graphics. Additionally, we intend to gather biometric data from the audience to map music or visual parameters and provide haptic feedback between musicians and the audience.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   )
