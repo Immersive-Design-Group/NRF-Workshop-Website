@@ -19,7 +19,7 @@ export default function Speakers() {
     {
       name: 'Boyu Gao',
       title: 'Associate Professor',
-      affiliation: 'College of Information Science and Technology & College of Cyber Security, Jinan University',
+      affiliation: 'College of Cyber Security/Guangdong Institute of Smart Education, Jinan University',
       url: 'https://boyugao.wordpress.com'
     },
     {
