@@ -5,6 +5,18 @@ import Image from 'next/image'
 export default function Organizers() {
   const organizers = [
     {
+      name: 'Seungwoo Je',
+      title: 'Assistant Professor',
+      image: getAssetPath('/Assets/people/Seungwoo Je.png'),
+      url: 'http://immersivedesignresearch.com/seungwoo'
+    },
+    {
+      name: 'Pengcheng An',
+      title: 'Assistant Professor',
+      image: getAssetPath('/Assets/people/Pengcheng An.png'),
+      url: 'https://anpengcheng.cn'
+    },
+    {
       name: 'Weitao Jiang',
       title: 'PhD Student',
       image: getAssetPath('/Assets/people/Weitao Jiang.png'),
@@ -53,7 +65,7 @@ export default function Organizers() {
           </div>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8">
           {organizers.map((organizer, index) => (
             <div key={index} className="text-center">
               {organizer.url ? (
